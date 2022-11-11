@@ -137,7 +137,7 @@
 // #define CONFIG_BT_NIMBLE_PINNED_TO_CORE 0
 
 /** @brief Un-comment to change the stack size for the NimBLE host task */
-// #define CONFIG_BT_NIMBLE_HOST_TASK_STACK_SIZE 4096
+#define CONFIG_BT_NIMBLE_HOST_TASK_STACK_SIZE 8192
 
 /**
  * @brief Un-comment to use memory pools for stack operations
